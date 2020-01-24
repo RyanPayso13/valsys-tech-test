@@ -1,0 +1,448 @@
+{
+  "Summary": {
+    "status": "success",
+    "message": "Successfully pulled valuation summary.",
+    "data": {
+      "startYear": 2018,
+      "historicalPeriod": 5,
+      "projectionPeriod": 5,
+      "uid": "0x1556bd",
+      "name": "Valuation Summary",
+      "dcfItems": [
+        {
+          "uid": "0x1553e8",
+          "name": "Cash and cash equivalents",
+          "order": 5,
+          "type": "raw",
+          "value": 569670000,
+          "tag": "Cash and cash equivalents"
+        },
+        {
+          "uid": "0x1556a3",
+          "name": "Shares outstanding",
+          "order": 8,
+          "type": "absolute",
+          "value": 719490000,
+          "tag": "Weighted average shares outstanding diluted"
+        },
+        {
+          "uid": "0x156687",
+          "name": "Total debt",
+          "order": 4,
+          "type": "raw",
+          "value": 36396050000,
+          "tag": "Total debt"
+        },
+        {
+          "uid": "0x156688",
+          "name": "Other adjustments",
+          "order": 6,
+          "type": "raw",
+          "value": 0,
+          "tag": "Other adjustments"
+        },
+        {
+          "uid": "0x15668c",
+          "name": "Current share price",
+          "order": 10,
+          "type": "monetary",
+          "value": 206.51,
+          "tag": "Current share price"
+        },
+        {
+          "uid": "0x1566b1",
+          "name": "Sum of present value of FCFF",
+          "order": 1,
+          "type": "raw",
+          "value": 21791813143.435,
+          "tag": "Present value of FCFF"
+        },
+        {
+          "uid": "0x1566cc",
+          "name": "Implied share price",
+          "order": 9,
+          "format": "bold",
+          "type": "monetary",
+          "value": 100.314,
+          "tag": "Implied share price"
+        },
+        {
+          "uid": "0x156703",
+          "name": "Implied premium",
+          "order": 11,
+          "type": "percentage",
+          "value": -0.514,
+          "tag": "Implied premium"
+        },
+        {
+          "uid": "0x156723",
+          "name": "Enterprise value",
+          "order": 3,
+          "format": "bold",
+          "type": "raw",
+          "value": 108000981309.211,
+          "tag": "Enterprise value"
+        },
+        {
+          "uid": "0x156749",
+          "name": "Present value of terminal value",
+          "order": 2,
+          "type": "raw",
+          "value": 86209168165.77573,
+          "tag": "Present value of terminal value"
+        },
+        {
+          "uid": "0x156753",
+          "name": "Equity value",
+          "order": 7,
+          "format": "bold",
+          "type": "raw",
+          "value": 72174601309.211,
+          "tag": "Equity value"
+        }
+      ]
+    }
+  },
+
+  "FCFF": {
+    "status": "success",
+    "message": "Successfully pulled free cash flow data.",
+    "data": {
+      "startYear": 2018,
+      "historicalPeriod": 5,
+      "projectionPeriod": 5,
+      "uid": "0x1556bd",
+      "name": "Free Cash Flow To Firm",
+      "dcfItems": [
+        {
+          "uid": "0x15557d",
+          "name": "- Capital expenditure",
+          "facts": [
+            { "period": 2020, "value": -1971151186.368 },
+            { "period": 2014, "value": -2583400000 },
+            { "period": 2015, "value": -1813900000 },
+            { "period": 2022, "value": -1459982670.310394 },
+            { "period": 2021, "value": -1705349030.236992 },
+            { "period": 2017, "value": -1853700000 },
+            { "period": 2016, "value": -1821100000 },
+            { "period": 2018, "value": -2741700000 },
+            { "period": 2023, "value": -1256786348.031118 },
+            { "period": 2019, "value": -2312351496 }
+          ],
+          "order": 7,
+          "type": "raw",
+          "value": 0,
+          "tag": "Capital expenditure"
+        },
+        {
+          "uid": "0x155630",
+          "name": "Total revenues",
+          "facts": [
+            { "period": 2021, "value": 18536402502.576 },
+            { "period": 2020, "value": 18953376792 },
+            { "period": 2018, "value": 21025200000 },
+            { "period": 2015, "value": 25413000000 },
+            { "period": 2019, "value": 19763688000 },
+            { "period": 2022, "value": 18480793295.06827 },
+            { "period": 2023, "value": 18758005194.494293 },
+            { "period": 2016, "value": 24621900000 },
+            { "period": 2017, "value": 22820400000 },
+            { "period": 2014, "value": 27441300000 }
+          ],
+          "order": 1,
+          "format": "bold",
+          "type": "raw",
+          "value": 0,
+          "tag": "Total revenue"
+        },
+        {
+          "uid": "0x1556ea",
+          "name": "Operating income",
+          "facts": [
+            { "period": 2018, "value": 8822600000 },
+            { "period": 2022, "value": 6135623373.962667 },
+            { "period": 2023, "value": 5833739615.487725 },
+            { "period": 2019, "value": 7865947824 },
+            { "period": 2020, "value": 7126469673.792 },
+            { "period": 2021, "value": 6561886485.911903 },
+            { "period": 2016, "value": 7744500000 },
+            { "period": 2015, "value": 7145500000 },
+            { "period": 2017, "value": 9552700000 },
+            { "period": 2014, "value": 7949200000 }
+          ],
+          "order": 3,
+          "type": "raw",
+          "value": 0,
+          "tag": "Total operating income"
+        },
+        {
+          "uid": "0x155791",
+          "name": "+ Depreciation and amortization",
+          "facts": [
+            { "period": 2022, "value": 1108847597.704096 },
+            { "period": 2021, "value": 1167793357.662288 },
+            { "period": 2018, "value": 1482000000 },
+            { "period": 2020, "value": 1231969491.48 },
+            { "period": 2015, "value": 1555700000 },
+            { "period": 2017, "value": 1363400000 },
+            { "period": 2019, "value": 1343930784 },
+            { "period": 2014, "value": 1644500000 },
+            { "period": 2016, "value": 1516500000 },
+            { "period": 2023, "value": 1087964301.280669 }
+          ],
+          "order": 9,
+          "type": "raw",
+          "value": 0,
+          "tag": "Depreciation depletion and amortization"
+        },
+        {
+          "uid": "0x156683",
+          "name": "FCFF",
+          "facts": [
+            { "period": 2015, "value": 4693000000 },
+            { "period": 2016, "value": 5093400000 },
+            { "period": 2023, "value": 4289768207.929 },
+            { "period": 2019, "value": 5538299233.488 },
+            { "period": 2020, "value": 5066010175.98 },
+            { "period": 2017, "value": 6661700000 },
+            { "period": 2014, "value": 4459700000 },
+            { "period": 2021, "value": 4713918374.82 },
+            { "period": 2022, "value": 4452910182.861 },
+            { "period": 2018, "value": 6143800000 }
+          ],
+          "order": 13,
+          "format": "bold",
+          "type": "raw",
+          "value": 0,
+          "tag": "FCFF"
+        },
+        {
+          "uid": "0x156691",
+          "name": "CapEx as % of Revenue",
+          "facts": [
+            { "period": 2015, "value": -0.071 },
+            { "period": 2018, "value": -0.13 },
+            { "period": 2022, "value": -0.079 },
+            { "period": 2016, "value": -0.074 },
+            { "period": 2020, "value": -0.104 },
+            { "period": 2017, "value": -0.081 },
+            { "period": 2023, "value": -0.067 },
+            { "period": 2019, "value": -0.117 },
+            { "period": 2014, "value": -0.094 },
+            { "period": 2021, "value": -0.092 }
+          ],
+          "order": 8,
+          "type": "percentage",
+          "value": 0,
+          "tag": "CapEx as % of Revenue"
+        },
+        {
+          "uid": "0x1566a1",
+          "name": "YoY NOPAT growth",
+          "facts": [
+            { "period": 2021, "value": -0.078 },
+            { "period": 2014, "value": 0 },
+            { "period": 2023, "value": -0.048 },
+            { "period": 2017, "value": 0.109 },
+            { "period": 2016, "value": 0.087 },
+            { "period": 2019, "value": -0.107 },
+            { "period": 2020, "value": -0.093 },
+            { "period": 2015, "value": -0.04 },
+            { "period": 2018, "value": 0.123 },
+            { "period": 2022, "value": -0.065 }
+          ],
+          "order": 6,
+          "type": "percentage",
+          "value": 0,
+          "tag": "YoY NOPAT growth"
+        },
+        {
+          "uid": "0x1566b1",
+          "name": "Present value of FCFF",
+          "facts": [
+            { "period": 2022, "value": 3780059577.98 },
+            { "period": 2020, "value": 4797358121.193 },
+            { "period": 2019, "value": 5538299233.488 },
+            { "period": 2021, "value": 4227729484.143 },
+            { "period": 2023, "value": 3448366726.631 }
+          ],
+          "order": 17,
+          "format": "bold",
+          "type": "raw",
+          "value": 0,
+          "tag": "Present value of FCFF"
+        },
+        {
+          "uid": "0x1566bf",
+          "name": "EBIT margin",
+          "facts": [
+            { "period": 2020, "value": 0.376 },
+            { "period": 2023, "value": 0.311 },
+            { "period": 2014, "value": 0.29 },
+            { "period": 2015, "value": 0.281 },
+            { "period": 2018, "value": 0.42 },
+            { "period": 2016, "value": 0.315 },
+            { "period": 2022, "value": 0.332 },
+            { "period": 2019, "value": 0.398 },
+            { "period": 2017, "value": 0.419 },
+            { "period": 2021, "value": 0.354 }
+          ],
+          "order": 4,
+          "type": "percentage",
+          "value": 0,
+          "tag": "EBIT margin"
+        },
+        {
+          "uid": "0x1566cd",
+          "name": "D\u0026A as % of Revenue",
+          "facts": [
+            { "period": 2019, "value": 0.068 },
+            { "period": 2020, "value": 0.065 },
+            { "period": 2015, "value": 0.061 },
+            { "period": 2018, "value": 0.07 },
+            { "period": 2017, "value": 0.06 },
+            { "period": 2016, "value": 0.062 },
+            { "period": 2023, "value": 0.058 },
+            { "period": 2014, "value": 0.06 },
+            { "period": 2021, "value": 0.063 },
+            { "period": 2022, "value": 0.06 }
+          ],
+          "order": 10,
+          "type": "percentage",
+          "value": 0,
+          "tag": "D\u0026A as % of Revenue"
+        },
+        {
+          "uid": "0x1566d0",
+          "name": "Discount rate",
+          "facts": [
+            { "period": 2022, "value": 0.056 },
+            { "period": 2019, "value": 0.056 },
+            { "period": 2023, "value": 0.056 },
+            { "period": 2020, "value": 0.056 },
+            { "period": 2021, "value": 0.056 }
+          ],
+          "order": 15,
+          "type": "percentage",
+          "value": 0,
+          "tag": "Discount rate"
+        },
+        {
+          "uid": "0x1566e5",
+          "name": "+ Change in working capital",
+          "facts": [
+            { "period": 2021, "value": -74145610.010304 },
+            { "period": 2015, "value": 167900000 },
+            { "period": 2017, "value": -980500000 },
+            { "period": 2020, "value": -189533767.92 },
+            { "period": 2018, "value": -472700000 },
+            { "period": 2019, "value": -316219008 },
+            { "period": 2016, "value": 167000000 },
+            { "period": 2022, "value": 36961586.590137 },
+            { "period": 2023, "value": 150064041.555954 },
+            { "period": 2014, "value": -63600000 }
+          ],
+          "order": 11,
+          "type": "raw",
+          "value": 0,
+          "tag": "Change in working capital"
+        },
+        {
+          "uid": "0x1566f5",
+          "name": "YoY revenue growth",
+          "facts": [
+            { "period": 2020, "value": -0.041 },
+            { "period": 2021, "value": -0.022 },
+            { "period": 2015, "value": -0.074 },
+            { "period": 2018, "value": -0.079 },
+            { "period": 2016, "value": -0.031 },
+            { "period": 2017, "value": -0.073 },
+            { "period": 2019, "value": -0.06 },
+            { "period": 2022, "value": -0.003 },
+            { "period": 2023, "value": 0.015 },
+            { "period": 2014, "value": 0 }
+          ],
+          "order": 2,
+          "type": "percentage",
+          "value": 0,
+          "tag": "YoY revenue growth"
+        },
+        {
+          "uid": "0x156705",
+          "name": "Cumulative discount",
+          "facts": [
+            { "period": 2020, "value": 1.056 },
+            { "period": 2022, "value": 1.178 },
+            { "period": 2019, "value": 1 },
+            { "period": 2021, "value": 1.115 },
+            { "period": 2023, "value": 1.244 }
+          ],
+          "order": 16,
+          "type": "absolute",
+          "value": 0,
+          "tag": "Cumulative discount"
+        },
+        {
+          "uid": "0x156719",
+          "name": "NOPAT",
+          "facts": [
+            { "period": 2018, "value": 6930800000 },
+            { "period": 2022, "value": 4841006842.057 },
+            { "period": 2014, "value": 5335000000 },
+            { "period": 2021, "value": 5177328437.384 },
+            { "period": 2019, "value": 6190500937.488 },
+            { "period": 2016, "value": 5565000000 },
+            { "period": 2023, "value": 4608654296.235 },
+            { "period": 2017, "value": 6171500000 },
+            { "period": 2020, "value": 5615658102.948 },
+            { "period": 2015, "value": 5119100000 }
+          ],
+          "order": 5,
+          "type": "raw",
+          "value": 0,
+          "tag": "NOPAT"
+        },
+        {
+          "uid": "0x156735",
+          "name": "Change in working capital as % of Revenue",
+          "facts": [
+            { "period": 2017, "value": -0.043 },
+            { "period": 2014, "value": -0.002 },
+            { "period": 2015, "value": 0.007 },
+            { "period": 2018, "value": -0.022 },
+            { "period": 2021, "value": -0.004 },
+            { "period": 2019, "value": -0.016 },
+            { "period": 2020, "value": -0.01 },
+            { "period": 2016, "value": 0.007 },
+            { "period": 2022, "value": 0.002 },
+            { "period": 2023, "value": 0.008 }
+          ],
+          "order": 12,
+          "type": "percentage",
+          "value": 0,
+          "tag": "Change in working capital as % of Revenue"
+        },
+        {
+          "uid": "0x156747",
+          "name": "YoY FCFF growth",
+          "facts": [
+            { "period": 2017, "value": 0.308 },
+            { "period": 2019, "value": -0.099 },
+            { "period": 2023, "value": -0.037 },
+            { "period": 2021, "value": -0.07 },
+            { "period": 2022, "value": -0.055 },
+            { "period": 2020, "value": -0.085 },
+            { "period": 2015, "value": 0.052 },
+            { "period": 2014, "value": 0 },
+            { "period": 2018, "value": -0.078 },
+            { "period": 2016, "value": 0.085 }
+          ],
+          "order": 14,
+          "type": "percentage",
+          "value": 0,
+          "tag": "YoY FCFF growth"
+        }
+      ]
+    }
+  }
+}

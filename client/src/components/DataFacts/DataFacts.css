@@ -1,0 +1,11 @@
+.facts-table {
+  width: 100%;
+}
+
+table.bp2-html-table .facts-table-header > th {
+  box-shadow: 0;
+}
+
+.facts-table-row > td {
+  background-color: rgb(240, 252, 255);
+}
