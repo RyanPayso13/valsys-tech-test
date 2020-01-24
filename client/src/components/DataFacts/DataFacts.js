@@ -1,8 +1,9 @@
 import React from "react";
+import * as utils from "../../libs/utils";
 import "./DataFacts.css";
 
 const DataFacts = ({ facts = [], startYear = null }) => {
-  const sortedFacts = [...facts].sort((a, b) => b.period - a.period);
+  const sortedFacts = utils.sortFacts(facts);
   const setClassName = period => (period > startYear ? "facts-table-row" : "");
 
   return (

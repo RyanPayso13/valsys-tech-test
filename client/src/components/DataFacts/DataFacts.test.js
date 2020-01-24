@@ -27,7 +27,7 @@ describe("<DataFacts />", () => {
     expect(getByTestId("data-facts")).toBeInTheDocument();
   });
 
-  it("should sort the facts by period DESC", () => {
+  it("should render the facts by period DESC", () => {
     const { container } = render(createComponent(facts));
     const cells = container.querySelectorAll(
       ".facts-table > tbody > tr td:first-child"
