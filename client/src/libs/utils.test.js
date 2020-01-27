@@ -16,11 +16,11 @@ describe("Utilities", () => {
     }
   ];
 
-  it("should sort the facts by period DESC", () => {
+  it("should sort the facts by period ASC", () => {
     const sorted = utils.sortFacts(facts);
     expect(sorted.length).toEqual(3);
-    expect(sorted[0].period).toBe(2020);
+    expect(sorted[0].period).toBe(2017);
     expect(sorted[1].period).toBe(2018);
-    expect(sorted[2].period).toBe(2017);
+    expect(sorted[2].period).toBe(2020);
   });
 });

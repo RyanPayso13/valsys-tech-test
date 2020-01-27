@@ -33,9 +33,9 @@ describe("<DataFacts />", () => {
       ".facts-table > tbody > tr td:first-child"
     );
     expect(cells.length).toEqual(3);
-    expect(cells[0].textContent).toBe("2020");
+    expect(cells[0].textContent).toBe("2017");
     expect(cells[1].textContent).toBe("2018");
-    expect(cells[2].textContent).toBe("2017");
+    expect(cells[2].textContent).toBe("2020");
   });
 
   it("should style periods after start year", () => {

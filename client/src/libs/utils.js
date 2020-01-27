@@ -1,2 +1,2 @@
 export const sortFacts = facts =>
-  [...facts].sort((a, b) => b.period - a.period);
+  [...facts].sort((a, b) => a.period - b.period);
